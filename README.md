@@ -1,12 +1,39 @@
-# React + Vite
+# App de Chat IA por Roberto Junior
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um aplicativo web de chat alimentado por Inteligência Artificial, desenvolvido em React. O usuário pode enviar mensagens e receber respostas automáticas de um sistema de IA integrado (via `window.puter.ai.chat`).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- Interface moderna e responsiva com estilização via Tailwind CSS.
+- Detecção automática de disponibilidade da IA.
+- Envio e recebimento de mensagens em tempo real.
+- Indicador de carregamento enquanto a IA está processando a resposta.
+- Scroll automático para mostrar a última mensagem.
+- Suporte a envio de mensagens via tecla Enter (com Shift+Enter para nova linha).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Como usar
+
+1. Certifique-se que a IA está disponível (indicador "IA Pronta" será exibido).
+2. Digite sua mensagem na caixa de texto.
+3. Envie clicando no botão **Enviar** ou pressionando **Enter**.
+4. Aguarde a resposta da IA aparecer na tela.
+
+---
+
+## Tecnologias usadas
+
+- React (Hooks: useState, useEffect, useRef)
+- Tailwind CSS para estilização
+- API externa simulada por `window.puter.ai.chat`
+
+---
+
+## Como executar localmente
+
+1. Clone este repositório:
+   ```bash
+   git clone <url-do-repositorio>
